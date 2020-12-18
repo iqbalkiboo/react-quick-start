@@ -1,0 +1,177 @@
+/* KITABISA TEST
+URL: ?
+AUTHOR: Iqbal Dzulfiqar (kibs//lab//dsign | @iqbalkiboo)
+EMAIL: iqbalkiboo@gmail.com
+CREATE DATE: Des 2020
+UPDATE DATE: Des 2020
+NAME: index.module.css
+TYPE: Cascading Style Sheet
+DESCRIPTION: ... */
+
+.Header{
+    width: 100%;
+    display: block;
+}
+
+.circleLogo{
+    height: 60px;
+    width: 60px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.txtLogo {
+    margin-left: 2%;
+    margin-top: 0.6%;
+    padding: 1.2% 0;
+    font-size: 24px;
+}
+
+.btnSort{
+    margin-left: auto;
+    margin-right: 2%;
+    margin-top: 2.5%;
+    height: 10%;
+    font-size: 12px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #999;
+    color: #fff;
+}
+
+.PathRow{
+    justify-items: center;
+    width: 60%;
+    margin-top: 1.2%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #999;
+}
+
+@media (min-width: 190px) and (max-width: 319px) {
+    .circleLogo{
+        height: 40px;
+        width: 40px;
+        margin-left: 6%;
+        margin-top: 7%;
+    }
+    .txtLogo{
+        font-size: 14px;
+        margin-left: 3%;
+        margin-top: 10%;
+    }
+    .btnSort{
+        height: 10%;
+        font-size: 8px;
+        margin-top: 11%;
+        margin-right: 5%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .circleLogo{
+        height: 40px;
+        width: 40px;
+        margin-left: 6%;
+        margin-top: 7%;
+    }
+    .txtLogo{
+        font-size: 18px;
+        margin-left: 2%;
+        margin-top: 8%;
+    }
+    .btnSort{
+        height: 10%;
+        font-size: 12px;
+        margin-top: 9%;
+        margin-right: 4%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .circleLogo{
+        height: 50px;
+        width: 50px;
+        margin-left: 6%;
+        margin-top: 7%;
+    }
+    .txtLogo{
+        font-size: 18px;
+        margin-left: 2%;
+        margin-top: 8%;
+    }
+    .btnSort{
+        height: 10%;
+        font-size: 12px;
+        margin-top: 9%;
+        margin-right: 4%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .circleLogo{
+        height: 50px;
+        width: 50px;
+        margin-left: 6%;
+        margin-top: 7%;
+    }
+    .txtLogo{
+        font-size: 20px;
+        margin-left: 2%;
+        margin-top: 7%;
+    }
+    .btnSort{
+        height: 10%;
+        font-size: 12px;
+        margin-top: 8%;
+        margin-right: 4%;
+    }
+}
+
+/* @media (min-width: 768px) and (max-width: 1024px) {
+
+} */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .circleLogo{
+        height: 60px;
+        width: 60px;
+        margin-left: 2%;
+        margin-top: 6%;
+    }
+    .txtLogo{
+        font-size: 24px;
+        margin-left: 2%;
+        margin-top: 6%;
+    }
+    .btnSort{
+        height: 10%;
+        font-size: 12px;
+        margin-top: 8%;
+        margin-right: 2%;
+    }
+}
+
+@media (min-width: 1281px) {
+    .circleLogo{
+        height: 60px;
+        width: 60px;
+        margin-left: 2%;
+        margin-top: 6%;
+    }
+    .txtLogo{
+        font-size: 24px;
+        margin-left: 2%;
+        margin-top: 5.8%;
+    }
+    .btnSort{
+        height: 10%;
+        font-size: 16px;
+        margin-top: 7.5%;
+        margin-right: 2%;
+    }
+}

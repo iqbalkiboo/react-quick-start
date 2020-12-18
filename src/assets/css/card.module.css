@@ -1,0 +1,61 @@
+/* KITABISA TEST
+URL: ?
+AUTHOR: Iqbal Dzulfiqar (kibs//lab//dsign | @iqbalkiboo)
+EMAIL: iqbalkiboo@gmail.com
+CREATE DATE: Des 2020
+UPDATE DATE: Des 2020
+NAME: card.module.css
+TYPE: Cascading Style Sheet
+DESCRIPTION: ... */
+
+.Wrapper{
+    cursor: pointer;
+}
+
+section{
+    max-width: 1000px;
+    max-height: 1000px;
+    margin: 0 auto;
+}
+
+section .secTit{
+    position: relative;
+    text-align: left;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.CardWrap{
+    padding: auto;
+    /* height: 100%; */
+    margin: 20px 0 10px 0;
+    /* border: none; */
+    /* border-radius: 10px; */
+    /* overflow: hidden; */
+    /* box-shadow: 0 46px 10px -40px rgba(0, 0, 0, .1); */
+}
+
+.ContCard{
+    margin-top: 6%;
+    /* padding: 8px 16px; */
+    color: #000;
+}
+
+.CardImg{
+    width: 100%;
+    object-fit: cover !important;
+    -moz-object-fit: all cover;
+    -webkit-object-fit: all cover;
+}
+
+.Cbody{
+    padding: 0 !important;
+    margin-top: 10px;
+    /* margin-left: 6px; */
+    margin-bottom: 10px;
+}
+.secTit{
+    display: block;
+    font-size: 12px;
+    margin-bottom: 10px !important;
+}

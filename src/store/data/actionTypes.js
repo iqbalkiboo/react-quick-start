@@ -1,0 +1,1 @@
+export const DATA_LIST_PRODUCT = "DATA_LIST_PRODUCT";
